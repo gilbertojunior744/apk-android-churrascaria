@@ -1,0 +1,31 @@
+.welcome-card img {
+  max-height: 35vh;
+ 
+}
+ion-toolbar.topo{
+  border-radius: 10px;
+  font-family: sans-serif;
+  background-color: blue($color: #000000);
+  
+}
+ion-card{
+  border-radius: 20px;
+  
+}
+ion-card-header{
+  border-radius: 10px;
+  //overflow: hidden;
+}
+ion-card-content{
+  border-radius: 20px;
+}
+ion-card-content img{
+  border-radius: 20px;
+}
+ion-card-content a{
+  text-decoration: none;
+}
+ion-card-content h2{
+  color:danger;
+}
+

@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar class="topo" color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+     <h2> Pratos de Refeição</h2>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list color="dark">
+    <ion-list-header>
+      <ion-label color="dark">Confira nosso cardápio:</ion-label>
+    </ion-list-header>
+    <ion-card color="danger">
+     
+      <p>{{pratos[0]}}<br>
+      <b>R${{pratos[1]}}</b></p>
+      <img slot="end" src="{{pratos[2]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{pratos[3]}}<br>
+      <b>R${{pratos[4]}}</b></p>
+      <img slot="end" src="{{pratos[5]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{pratos[6]}}<br>
+      <b>R${{pratos[7]}}</b></p>
+      <img slot="end" src="{{pratos[8]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{pratos[9]}}<br>
+      <b>R${{pratos[10]}}</b></p>
+      <img slot="end" src="{{pratos[11]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{pratos[12]}}<br>
+      <b>R${{pratos[13]}}</b></p>
+      <img slot="end" src="{{pratos[14]}}">
+
+    </ion-card>
+  </ion-list>
+
+</ion-content>

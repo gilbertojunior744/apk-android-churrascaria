@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar class="topo" color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+     <h2> Entradas</h2>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="medium">
+  <ion-list color="dark">
+    <ion-list-header>
+      <ion-label color="dark">Confira nosso cardápio:</ion-label>
+    </ion-list-header>
+    <ion-card color="danger">
+     
+      <p>{{entradas[0]}}<br>
+      <b>{{entradas[1]}}</b></p>
+      <img slot="end" src="{{entradas[2]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{entradas[3]}}<br>
+      <b>{{entradas[4]}}</b></p>
+      <img slot="end" src="{{entradas[5]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{entradas[6]}}<br>
+      <b>{{entradas[7]}}</b></p>
+      <img slot="end" src="{{entradas[8]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{entradas[9]}}<br>
+      <b>R${{entradas[10]}}</b></p>
+      <img slot="end" src="{{entradas[11]}}">
+
+    </ion-card>
+    <ion-card color="danger">
+      <p>{{entradas[12]}}<br>
+      <b>R${{entradas[13]}}</b></p>
+      <img slot="end" src="{{entradas[14]}}">
+
+    </ion-card>
+  </ion-list>
+
+</ion-content>
+
